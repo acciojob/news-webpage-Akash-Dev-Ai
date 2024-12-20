@@ -1,16 +1,79 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(244, 241, 241);
+        }
+        #main{
+       display: flex;
+       margin-top: 10px;
+       justify-content: space-evenly;
+
+        }
+        .header{
+            color: white;
+            background-color: white;
+            font-size: 40px;
+            background-color: #011e29;
+            text-align: center;
+            padding: 15px;
+        }
+        .latest-news-section{
+            width: 250px;
+            height: 120px;
+			         text-align: center;
+         padding: 20px;
+         background-color: white;
+         border: white;
+         border-radius: 15px;
+        }
+        .main-article{
+            width: 500px;
+            height: 200px;
+        padding: 25px;
+        background-color: white;
+         text-align: center;
+         border: rgb(250, 247, 247);
+         border-radius: 15px;
+        }
+        .pictorial-news-section{
+            height: 350px;
+            width: 200px;
+            background-color: white;
+            border: solid white;
+            border-radius: 15px;
+            text-align: center;
+            align-items: center;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <header class="header">
+        Shaw's News
+    </header>
+    <div id="main">
+    <div class="latest-news-section">
+        <h3>Latest News Article</h3>
+        <ul>
+            <li>Article 1</li>
+            <li>Article 2</li>
+            <li>Article 3</li>
+        </ul>
+    </div>
+    <div class="main-article">
+        <h2>Main Article</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni laudantium cupiditate, cum quaerat error similique ducimus rem odit blanditiis delectus voluptate beatae praesentium, asperiores assumenda minus doloremque iste eius accusantium sequi porro officia fuga numquam. Adipisci dignissimos facere odio totam. Nesciunt nam animi hic voluptates quo quaerat, minima velit blanditiis!</p>
+    </div>
+    <div class="pictorial-news-section">
+        <h3>Pictorial News</h3>
+        <img src="https://images.hindustantimes.com/img/2023/01/29/550x309/delhi_rains_1674974112847_1674981888135_1674981888135.jpeg" width="150" alt=""><br>
+        <img src="https://images.hindustantimes.com/img/2023/01/29/550x309/ADANI-INDIA-GAUTAM-ADANI-0_1675011651023_1675011651023_1675011672003_1675011672003.JPG" width="150" alt=""><br>
+        <img src="https://images.hindustantimes.com/img/2023/01/29/550x309/FRANCE-REFORM-PENSIONS-31_1675022359706_1675022359706_1675022383851_1675022383851.JPG" width="150" alt="">
+    </div>
+</div>
 </body>
-
 </html>
